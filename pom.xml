@@ -7,6 +7,20 @@
     <version>1.0.1</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Signed ZIP library</description>
+    <url>https://github.com/noleakseu/zips</url>
+    <scm>
+        <url>https://github.com/noleakseu/zips</url>
+        <connection>
+            scm:git:git://github.com/noleakseu/zips.git
+        </connection>
+        <developerConnection>
+            scm:git:ssh://git@github.com:noleakseu/zips.git
+        </developerConnection>
+    </scm>
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/noleakseu/zips/issues</url>
+    </issueManagement>
     <packaging>jar</packaging>
     <developers>
         <developer>
