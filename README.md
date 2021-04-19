@@ -39,3 +39,8 @@ stream
     .setTag(Tags.Keywords, "placeholder design")
     .setTag(Tags.Version, "1.10.32")
 ```
+Verify:
+```shell
+$ jarsigner -verbose -verify snapshot.zip
+jar verified.
+```
