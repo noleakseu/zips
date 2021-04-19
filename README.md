@@ -41,6 +41,6 @@ stream
 ```
 Verify:
 ```shell
-$ jarsigner -verbose -verify snapshot.zip
+$ jarsigner -verbose -verify signed.zip
 jar verified.
 ```
